@@ -39,6 +39,6 @@
             }
         };
 
-        $.ajax(ajaxParams);
+        return $.ajax(ajaxParams);
     };
 }(jQuery));
